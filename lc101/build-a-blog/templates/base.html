@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{{title}}</title>
+
+        <style> 
+         
+                .error { 
+                    color: rgb(255, 0, 0); 
+                } 
+        </style>
+
+
+    </head>
+<body>
+    <form action='/'>
+        <input type=submit value='Home'>
+
+    </form>
+
+    
+
+    
+    {{message}}
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>
